@@ -56,17 +56,17 @@ Los datos de los modelos CMIP6 utilizados se obtuvieron del repositorio oficial 
 ### 1. Unificación espacial
 Los modelos suelen trabajar con rejillas diferentes por lo que realizamos un regridding para proyectarlos a una rejilla común definida por el usuario. (192 x 288 en nuestro caso)
 
-### 2️. Ensemble de modelos
+### 2. Ensemble de modelos
 Genera un **ensemble promedio** de los modelos seleccionados, reduciendo el sesgo individual y la variabilidad extrema.
 
-### 3️. Filtrado geográfico
+### 3. Filtrado geográfico
 Permite excluir regiones irrelevantes. (oceanos y polos en nuestro caso)
 
-### 4️. Normalización y reducción
+### 4. Normalización y reducción
 - Normaliza todas las variables a una escala comparable.
 - Aplica PCA para condensar la información y facilitar el análisis multivariable.
 
-### 5️. Clustering y clasificación
+### 5. Clustering y clasificación
 - Implementa K-Means.
 - Compatible con otros algoritmos si se desea extender.
 
@@ -87,6 +87,7 @@ En este caso de estudio, el **cluster amarillo** fue identificado como la zona m
 En caso de usar el proyecto, es necesario crear una carpeta que almacene los diferentes modelos climáticos de entrada, por defecto busca `modelos/` en la raíz del repositorio pero se puede cambiar la ruta facilmente.  
 
 En esta carpeta deben almacenarse los modelos, organizados en subcarpetas con el nombre de la variable (ej: `rsds`, `clt`, `tas`, `pr`, `sfcWind`).
+
 
 
 
