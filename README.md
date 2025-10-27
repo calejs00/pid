@@ -36,9 +36,9 @@ Los datos de los modelos CMIP6 utilizados se obtuvieron del repositorio oficial 
 |-----------|--------------|--------|
 | `rsds` | Radiación solar en superficie | W/m² |
 | `clt` | Cobertura nubosa | % |
-| `tas` | Temperatura media del aire | °C |
+| `tas` | Temperatura media del aire | °K |
 | `pr` | Precipitación media | kg m⁻² s⁻¹ |
-| `sfcWind` | Velocidad del viento en superficie | m/s |
+| `sfcWind` | Velocidad del viento en superficie | m/s-1 |
 
 ### modelos CMIP6 integrados
 - ACCESS-CM2  
@@ -87,6 +87,7 @@ En este caso de estudio, el **cluster amarillo** fue identificado como la zona m
 En caso de usar el proyecto, es necesario crear una carpeta que almacene los diferentes modelos climáticos de entrada, por defecto busca `modelos/` en la raíz del repositorio pero se puede cambiar la ruta facilmente.  
 
 En esta carpeta deben almacenarse los modelos, organizados en subcarpetas con el nombre de la variable (ej: `rsds`, `clt`, `tas`, `pr`, `sfcWind`).
+
 
 
 
