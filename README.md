@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="pngs/mapa_8cluster.png" alt="Mapa de clusters climáticos globales" width="80%">
+  <img src="pngs/mapa_8clusters.png" alt="Mapa de clusters climáticos globales" width="80%">
 </p>
 
 <p align="center">
@@ -77,7 +77,7 @@ Los resultados se exportan en formato NetCDF (.nc) para facilitar su análisis y
 
 A continuación, se muestra el mapa resultante de la clasificación en **8 clusters climáticos**:
 
-![Mapa de clusters](pngs/mapa_8cluster.png)
+![Mapa de clusters](pngs/mapa_8clusters.png)
 
 En este caso de estudio, el **cluster rosa** fue identificado como la zona más idónea para la instalación de paneles solares, según un pequeño análisis complementario y conocimiento experto documentado en el archivo [`report.pdf`](report.pdf).
 
@@ -87,5 +87,6 @@ En este caso de estudio, el **cluster rosa** fue identificado como la zona más 
 En caso de usar el proyecto, es necesario crear una carpeta que almacene los diferentes modelos climáticos de entrada, por defecto busca `modelos/` en la raíz del repositorio pero se puede cambiar la ruta facilmente.  
 
 En esta carpeta deben almacenarse los modelos, organizados en subcarpetas con el nombre de la variable (ej: `rsds`, `clt`, `tas`, `pr`, `sfcWind`).
+
 
 
