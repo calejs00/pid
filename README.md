@@ -49,6 +49,8 @@ Los datos de los modelos CMIP6 utilizados se obtuvieron del repositorio oficial 
 - MRI-ESM2-0  
 - TaiESM1  
 
+En nuestro caso hemos usado 35 datasets (7 modelos x 5 variables)
+
 ---
 
 ## Flujo de trabajo 
@@ -87,6 +89,7 @@ En este caso de estudio, el **cluster amarillo** fue identificado como la zona m
 En caso de usar el proyecto, es necesario crear una carpeta que almacene los diferentes modelos climáticos de entrada, por defecto busca `modelos/` en la raíz del repositorio pero se puede cambiar la ruta facilmente.  
 
 En esta carpeta deben almacenarse los modelos, organizados en subcarpetas con el nombre de la variable (ej: `rsds`, `clt`, `tas`, `pr`, `sfcWind`).
+
 
 
 
