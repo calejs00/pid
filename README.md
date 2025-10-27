@@ -79,7 +79,7 @@ A continuación, se muestra el mapa resultante de la clasificación en **8 clust
 
 ![Mapa de clusters](pngs/mapa_8clusters.png)
 
-En este caso de estudio, el **cluster rosa** fue identificado como la zona más idónea para la instalación de paneles solares, según un pequeño análisis complementario y conocimiento experto documentado en el archivo [`report.pdf`](report.pdf).
+En este caso de estudio, el **cluster amarillo** fue identificado como la zona más idónea para la instalación de paneles solares, según un pequeño análisis complementario y conocimiento experto documentado en el archivo [`report.pdf`](report.pdf).
 
 ---
 
@@ -87,6 +87,7 @@ En este caso de estudio, el **cluster rosa** fue identificado como la zona más 
 En caso de usar el proyecto, es necesario crear una carpeta que almacene los diferentes modelos climáticos de entrada, por defecto busca `modelos/` en la raíz del repositorio pero se puede cambiar la ruta facilmente.  
 
 En esta carpeta deben almacenarse los modelos, organizados en subcarpetas con el nombre de la variable (ej: `rsds`, `clt`, `tas`, `pr`, `sfcWind`).
+
 
 
 
